@@ -1,0 +1,12 @@
+# Instalar PyTorch primero (CPU, sirve para cualquier laptop):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# Si tienes GPU NVIDIA, usa el comando de https://pytorch.org/get-started/locally/
+torch>=2.1
+torchvision>=0.16
+scikit-learn>=1.3
+matplotlib>=3.7
+numpy>=1.24
+pillow>=10.0
+kagglehub        # solo para descargar el dataset en Colab
+# Opcional (GPU integrada Intel/AMD en Windows, experimental):
+# torch-directml

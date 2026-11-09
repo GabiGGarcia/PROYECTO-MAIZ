@@ -1,0 +1,22 @@
+Modelo: MobileNetV2  (mejor época 8, img 224px)
+Imágenes de prueba: 578
+
+              precision    recall  f1-score   support
+
+ mancha_gris     0.9125    0.9481    0.9299        77
+  roya_comun     0.9944    1.0000    0.9972       179
+        sana     1.0000    0.9943    0.9971       175
+ tizon_norte     0.9722    0.9524    0.9622       147
+
+    accuracy                         0.9792       578
+   macro avg     0.9698    0.9737    0.9716       578
+weighted avg     0.9796    0.9792    0.9793       578
+
+Accuracy: 0.9792
+Precision macro: 0.9698
+Recall macro: 0.9737
+F1 macro: 0.9716
+F1 ponderado: 0.9793
+Tiempo de inferencia: 3.00 ms/imagen en lote (cuda); 29.2 ms/imagen en CPU con batch 1
+Parámetros: 2,228,996
+Tiempo de entrenamiento: 4.3 min (13 épocas)

@@ -1,0 +1,22 @@
+Modelo: CNN propia  (mejor época 24, img 224px)
+Imágenes de prueba: 578
+
+              precision    recall  f1-score   support
+
+ mancha_gris     0.8202    0.9481    0.8795        77
+  roya_comun     1.0000    0.9944    0.9972       179
+        sana     1.0000    1.0000    1.0000       175
+ tizon_norte     0.9632    0.8912    0.9258       147
+
+    accuracy                         0.9637       578
+   macro avg     0.9459    0.9584    0.9506       578
+weighted avg     0.9667    0.9637    0.9642       578
+
+Accuracy: 0.9637
+Precision macro: 0.9459
+Recall macro: 0.9584
+F1 macro: 0.9506
+F1 ponderado: 0.9642
+Tiempo de inferencia: 4.65 ms/imagen en lote (cuda); 54.2 ms/imagen en CPU con batch 1
+Parámetros: 426,516
+Tiempo de entrenamiento: 8.0 min (29 épocas)
